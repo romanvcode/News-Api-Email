@@ -1,7 +1,8 @@
 import requests
 from send_email import send_email
 
-topic = "Tesla"
+topic = "ukraine"
+
 api_key = "2b5b2732f80e4fb9bc2bdbf3e257a2eb"
 url = ("https://newsapi.org/v2/everything?"
        f"q={topic}&"
